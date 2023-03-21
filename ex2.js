@@ -1,16 +1,17 @@
 
-let pippo=0
+for(let pippo=0; pippo<=100;pippo=pippo + 1)
+{console.log(pippo);}
 
-while(pippo<=100)
-{ 
-    console.log(pippo);
-    pippo=pippo + 1;
+if(pippo % 3==0){
+   console.log(pippo);
+   
 }
 
-if(pippo%3)
-{
-    pippociao;
-}
+// if(pippo/3)
+// {
+//     let pippo='ciao';
+
+// }
 
 
 
