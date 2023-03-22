@@ -2,10 +2,19 @@
 for(let pippo=0; pippo<=100;pippo=pippo + 1)
 {console.log(pippo);}
 
-if(pippo % 3==0){
-   console.log(pippo);
-   
+if(pippo % 3 == 0){
+   console.log('Fizz');  
 }
+else if(pippo % 5 == 0)
+{
+   pippo=0;
+   console.log('pippo');
+}
+// else if{
+//    console.log('banana');
+// }
+
+
 
 // if(pippo/3)
 // {
