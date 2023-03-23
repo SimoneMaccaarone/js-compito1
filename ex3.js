@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //  CICLI NESTATI
 /*
 for (let x=1; x<11; x++){
@@ -83,3 +84,46 @@ for (let y = 0; y < size; y++) {
     chessboard += ' \n';
 }
 console.log(chessboard);
+=======
+// cicli annidati
+
+// for (let x = 1; x < 11; x++) {
+//         for (let y = 1; y < 11; y++) {
+//             console.log('X:', x, 'Y:', y);
+//         }
+//     }
+
+
+let count=0
+let size=1
+for (let x = ' #'; count < 2; x+=' #') {
+    count+=6;
+        for (let y = '# '; count < 2; y+='# ') {
+        console.log(x , y,'\n');
+        
+        }
+       
+    }
+
+
+
+
+    
+// let scacchiera = "";
+// let size = 18;
+
+// for (let riga = 0; riga < size; riga++) {
+    
+    
+//     if (riga % 2 !== 0) {
+//         scacchiera += " #".repeat(size/2);
+//     } else if (riga % 2 === 0) {
+//         scacchiera += "# ".repeat(size/2);
+//     };
+    
+//     scacchiera += "\n";
+
+// };
+
+// console.log(scacchiera);
+>>>>>>> Stashed changes
