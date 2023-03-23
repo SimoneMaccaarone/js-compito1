@@ -1,26 +1,57 @@
 
-for(let pippo=0; pippo<=100;pippo=pippo + 1)
-{console.log(pippo);}
+// soluzione mia e andrea ()
+/*
+for(let pippo=0; pippo<=100;pippo++){
 
-if(pippo % 3 == 0){
-   console.log('Fizz');  
+   if (pippo % 3 === 0 && pippo % 5 ===0){
+         console.log('FizzBuzz');
+
+   }  else if (pippo % 5 === 0){
+         console.log('Buzz');
+
+   }  else if (pippo % 3 ===0){
+         console.log('Fizz')
+   }  else{
+         console.log(pippo);
+   }
 }
-else if(pippo % 5 == 0)
-{
-   pippo=0;
-   console.log('pippo');
+*/
+
+
+
+// solizione di Davide (simile alla mia)
+/*
+for(let pippo=0; pippo<=100;pippo++){
+
+if(pippo % 3 === 0 && pippo % 5==0){
+   console.log('FizzBuzz');}
+
+else if(pippo % 3 === 0){
+   console.log('Fizz');}
+
+else if(pippo % 5===0){
+   console.log('Fizz')
 }
-// else if{
-//    console.log('banana');
-// }
+else{
+   console.log(pippo)
+}
+ pippo+=1;
+} */
 
 
+// soluzione di Pietro
+/*
+let counter=1;
+while (counter <= 100){
+   console.log(counter);
+   counter++;
+   if((counter % 3 ===0) && (counter % ===0)){
+      console.log('FizzBuzz');
+      counter++;
+   }
+}*/
 
-// if(pippo/3)
-// {
-//     let pippo='ciao';
-
-// }
+// soluzione ANDREA
 
 
 
